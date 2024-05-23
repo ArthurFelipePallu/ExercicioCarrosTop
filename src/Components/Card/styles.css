@@ -1,0 +1,28 @@
+.card-container {
+  width: 305px;
+  height: 347px;
+  background-color: var(--carros-top-bg-color-tertiary);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.card-img {
+  width: 220px;
+  height: 165px;
+
+}
+
+.card-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--carros-top-font-color-primary);
+}
+
+.card-desc {
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--carros-top-font-color-secondary);
+}

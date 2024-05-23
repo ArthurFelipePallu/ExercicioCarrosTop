@@ -1,0 +1,13 @@
+.buy-button{
+    width: 266px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: var(--carros-top-font-color-quintiary);
+    background-color: var(--carros-top-btn-color-primary);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+}

@@ -1,0 +1,8 @@
+.search-button{
+
+    width: 10%;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    color: var(--carros-top-font-color-quintiary);
+    background-color: var(--carros-top-btn-color-primary);
+}
