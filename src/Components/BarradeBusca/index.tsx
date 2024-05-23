@@ -6,7 +6,9 @@ export default function BarradeBusca()
     return(
         <>
             <div className="searchbar">
-                <div className="search"> Search</div>
+                <form>
+                    <input type="text" name="procurar" placeholder="Digite sua busca"  className="search"/>
+                </form>
                 <SearchButton/>
             </div>
         </>

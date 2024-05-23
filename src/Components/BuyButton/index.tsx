@@ -4,7 +4,7 @@ export default function BuyButton()
 {
     return(
         <div className="buy-button">
-            Comprar
+           <p>Comprar</p> 
         </div>
         
     );

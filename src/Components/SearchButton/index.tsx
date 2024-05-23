@@ -4,7 +4,7 @@ export default function SearchButton()
 {
     return(
         <div className="search-button">
-            Buscar
+           <p>Buscar</p> 
         </div>
         
     );

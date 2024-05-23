@@ -1,8 +1,13 @@
 .search-button{
 
     width: 10%;
+    min-width: 77px;
     height: 100%;
     border-radius: 0 5px 5px 0;
     color: var(--carros-top-font-color-quintiary);
     background-color: var(--carros-top-btn-color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+

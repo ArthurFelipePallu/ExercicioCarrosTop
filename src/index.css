@@ -12,6 +12,8 @@
   --carros-top-bg-color-primary: #fff;
   --carros-top-bg-color-secondary: #F78B00;
   --carros-top-bg-color-tertiary: #EDEDED;
+  --carros-top-bg-color-quarternary: #585858;
+
 
   --carros-top-font-color-primary: #000000;
   --carros-top-font-color-secondary: #585858;
@@ -30,4 +32,12 @@
 }
 .mg-top20{
   margin-top: 20px;
+}
+.pdd-top40{
+  padding-top: 40px;
+}
+.container{
+  width: 100%;
+  max-width: 979px;
+  margin: auto;
 }

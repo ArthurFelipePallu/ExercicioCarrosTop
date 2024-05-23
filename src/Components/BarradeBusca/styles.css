@@ -2,16 +2,23 @@
     width: 100%;
     max-width: 979px;
     height: 40px;
-    background-color: blanchedalmond;
     display: flex;
     text-align: center;
+    padding: 0 10px;
 }
-
-.search{
+form{
     width: 90%;
+    border-radius: 5px 0 0 5px;
+    border: 1px 0 1px 1px;
+}
+.search{
+    width: 100%;
     max-width: 900px;
     height: 100%;
-    background-color: brown;
     color: var(--carros-top-font-color-quarternary);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
 }
+
 
