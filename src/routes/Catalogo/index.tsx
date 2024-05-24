@@ -8,20 +8,25 @@ export default function Catalogo() {
     <>
       <Header />
 
-      <section id="catalogo-section" className="container mg-top20 pdd-top40 ">
-        <BarradeBusca />
-        <div className="catalogo-card-container">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
-      </section>
+      <main className="ct-catalogo-main">
+        <section
+          id="ct-catalogo-section"
+          className="ct-container mg-top20 pdd-top40 "
+        >
+          <BarradeBusca />
+          <div className="ct-catalogo-card-container">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
+        </section>
+      </main>
     </>
   );
 }

@@ -6,10 +6,10 @@ export default function Card()
 {
     return(
         <>
-            <div className="card-container">
-                <img src={CarroImg} alt="" className="card-img" />
-                <p className="card-name">Audi Supra TT</p>
-                <p className="card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+            <div className="ct-card-container">
+                <img src={CarroImg} alt="" className="ct-card-img" />
+                <p className="ct-card-name">Audi Supra TT</p>
+                <p className="ct-card-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
                 <BuyButton/>
             </div>
         </>    
